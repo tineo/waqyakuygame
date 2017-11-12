@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Waqyakuy</title>
+        <script
+                src="https://code.jquery.com/jquery-1.12.4.js"
+                integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+                crossorigin="anonymous"></script>
+        <script type="text/javascript" src="assets/scripts/jquery-ui.min.js"></script>
+
+        <script src="./assets/scripts/bundle.js"></script>
+
+        <meta name="theme-color" content="#AC8231">
+        <link  rel="stylesheet" href="./assets/scripts/jquery-ui.min.css" type="text/css"/>
+        <link href="./assets/scripts/jquery-ui.theme.min.css"  rel="stylesheet" type="text/css" />
+        <link rel="manifest" href="./assets/manifest.json">
+
+
+
+
+            </head>
+    <body style="background-color: #ac8231">
+
+    <div  style="width: 720px; margin: 0 auto;">
+        <div style="color: #496624"><span style="font-size: 4em;font-weight: bolder">Waqyakuy</span></div>
+
+        <div>
+            <!--
+            <span id="gems" style="font-size: 6em; font-weight: bold"></span>
+            <span id="gem" style="font-size: 6em; font-weight: bold"></span>
+            <span id="killed" style="font-size: 3em; font-weight: bold"></span>
+            -->
+            <span  style="font-size: 2em;">Movimientos:</span><span id="moves"  style="font-size: 2em"></span>
+        </div>
+
+        <div id="sel" style="font-size: 6em; font-weight: bold"></div>
+
+    </div>
+
+    <div  style="width: 720px; margin: 0 auto;">
+        <div style="display: inline-block; background: url(./assets/sprites/asset05.png); height: 100px; width: 100px"></div>
+        <span id="f0" style="font-size: 2em; color: #496624;"></span>
+        <div style="display: inline-block; background: url(./assets/sprites/asset05.png) -100px; height: 100px; width: 100px"></div>
+        <span id="f1" style="font-size: 2em; color: #496624;"></span>
+        <div style="display: inline-block; background: url(./assets/sprites/asset05.png) -200px; height: 100px; width: 100px"></div>
+        <span id="f2" style="font-size: 2em; color: #496624;"></span>
+        <div style="display: inline-block; background: url(./assets/sprites/asset05.png) -300px; height: 100px; width: 100px"></div>
+        <span id="f3" style="font-size: 2em; color: #496624;"></span>
+        <div style="display: inline-block; background: url(./assets/sprites/asset05.png) -400px; height: 100px; width: 100px"></div>
+        <span id="f4" style="font-size: 2em; color: #496624;"></span>
+    </div>
+
+    <div style="border: solid 9px #496624; border-radius: 10px;width: 720px; margin: 0 auto;
+        background: url(./assets/images/background.png)">
+
+        <div id="phaser-example" style=" width: 720px"></div>
+
+    </div>
+
+    <div id="dialog" title="Perdiste">
+        <p>Ups, te quedaste sin movimientos. Vuelve a intentarlo.</p>
+    </div>
+
+
+    <div id="dialog2" title="Felicitaciones">
+        <p>Lo lograste.</p>
+    </div>
+
+    <script src="./assets/scripts/service-worker.js"></script>
+    </body>
+</html>
